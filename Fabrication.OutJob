@@ -1,0 +1,166 @@
+[OutputJobFile]
+Version=1.0
+Caption=
+Description=
+VaultGUID=
+ItemGUID=
+ItemHRID=
+RevisionGUID=
+RevisionId=
+VaultHRID=
+AutoItemHRID=
+NextRevId=
+FolderGUID=
+LifeCycleDefinitionGUID=
+RevisionNamingSchemeGUID=
+
+[OutputGroup1]
+Name=Fabrication.OutJob
+Description=
+TargetOutputMedium=Clean Up
+VariantName=[No Variations]
+VariantScope=1
+CurrentConfigurationName=
+TargetPrinter=EPSON3CCC05 (L6170 Series)
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium1=Print Job
+OutputMedium1_Type=Printer
+OutputMedium1_Printer=
+OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium2=GERBERS
+OutputMedium2_Type=GeneratedFiles
+OutputMedium3=PCB Specification
+OutputMedium3_Type=Publish
+OutputMedium4=Clean Up
+OutputMedium4_Type=GeneratedFiles
+OutputType1=PCBDrawing
+OutputName1=PCB_Specification
+OutputCategory1=Documentation
+OutputDocumentPath1=PCB_Specification.PCBDwf
+OutputVariantName1=
+OutputEnabled1=0
+OutputEnabled1_OutputMedium1=0
+OutputEnabled1_OutputMedium2=0
+OutputEnabled1_OutputMedium3=1
+OutputEnabled1_OutputMedium4=0
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=Gerber
+OutputName2=Gerber Files
+OutputCategory2=Fabrication
+OutputDocumentPath2=gnss_module_evaluation_shield_pcb.PcbDoc
+OutputVariantName2=
+OutputEnabled2=0
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=1
+OutputEnabled2_OutputMedium3=0
+OutputEnabled2_OutputMedium4=0
+OutputDefault2=0
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908289~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973834~1,16777217~1,16842751~1,16973835~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+OutputType3=NC Drill
+OutputName3=NC Drill Files
+OutputCategory3=Fabrication
+OutputDocumentPath3=gnss_module_evaluation_shield_pcb.PcbDoc
+OutputVariantName3=
+OutputEnabled3=0
+OutputEnabled3_OutputMedium1=0
+OutputEnabled3_OutputMedium2=2
+OutputEnabled3_OutputMedium3=0
+OutputEnabled3_OutputMedium4=0
+OutputDefault3=0
+Configuration3_Name1=OutputConfigurationParameter1
+Configuration3_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressLeadingZeroes
+OutputType4=Copy Files
+OutputName4=Copy Files
+OutputCategory4=PostProcess
+OutputDocumentPath4=
+OutputVariantName4=
+OutputEnabled4=1
+OutputEnabled4_OutputMedium1=0
+OutputEnabled4_OutputMedium2=0
+OutputEnabled4_OutputMedium3=0
+OutputEnabled4_OutputMedium4=1
+OutputDefault4=0
+Configuration4_Name1=OutputConfigurationParameter1
+Configuration4_Item1=Count=1|File0=[Project Dir]\CleanFabricationPackage.cmd|PreserveFolderStructure0=True|Record=NonNativeFiles
+
+[PublishSettings]
+OutputFilePath2=C:\Users\arsenii.morozov.MIRCOD\Downloads\gnss_module_evaluation_shield\release\gnss_module_evaluation_shield_V1.0_Manufacture_(2021-10-12)\
+ReleaseManaged2=0
+OutputBasePath2=release\
+OutputPathMedia2==ProjectName+'_V'+versionStr+'.'+revisionStr+'_Manufacture_('+CurrentDate+')'
+OutputPathMediaValue2==ProjectName+'_V'+versionStr+'.'+revisionStr+'_Manufacture_('+CurrentDate+')'
+OutputPathOutputer2=[Output Type]
+OutputPathOutputerPrefix2=
+OutputPathOutputerValue2=
+OutputFileName2=
+OutputFileNameMulti2=
+UseOutputNameForMulti2=1
+OutputFileNameSpecial2=
+OpenOutput2=1
+OutputFilePath3=C:\Users\arsenii.morozov.MIRCOD\Downloads\gnss_module_evaluation_shield\release\gnss_module_evaluation_shield_V1.0_Manufacture_(2021-10-12)\Fabrication.PDF
+ReleaseManaged3=0
+OutputBasePath3=release\
+OutputPathMedia3==ProjectName+'_V'+versionStr+'.'+revisionStr+'_Manufacture_('+CurrentDate+')'
+OutputPathMediaValue3==ProjectName+'_V'+versionStr+'.'+revisionStr+'_Manufacture_('+CurrentDate+')'
+OutputPathOutputer3=[Output Type]
+OutputPathOutputerPrefix3=
+OutputPathOutputerValue3=
+OutputFileName3=Fabrication.PDF
+OutputFileNameMulti3=
+UseOutputNameForMulti3=1
+OutputFileNameSpecial3=
+OpenOutput3=1
+PromptOverwrite3=1
+PublishMethod3=0
+ZoomLevel3=50
+FitSCHPrintSizeToDoc3=1
+FitPCBPrintSizeToDoc3=1
+GenerateNetsInfo3=1
+MarkPins3=1
+MarkNetLabels3=1
+MarkPortsId3=1
+GenerateTOC3=1
+ShowComponentParameters3=1
+GlobalBookmarks3=0
+PDFACompliance3=Disabled
+PDFVersion3=Default
+OutputFilePath4=C:\Users\arsenii.morozov.MIRCOD\Downloads\gnss_module_evaluation_shield\release\gnss_module_evaluation_shield_V1.0_Manufacture_(2021-10-12)\
+ReleaseManaged4=0
+OutputBasePath4=release\
+OutputPathMedia4==ProjectName+'_V'+versionStr+'.'+revisionStr+'_Manufacture_('+CurrentDate+')'
+OutputPathMediaValue4==ProjectName+'_V'+versionStr+'.'+revisionStr+'_Manufacture_('+CurrentDate+')'
+OutputPathOutputer4=
+OutputPathOutputerPrefix4=
+OutputPathOutputerValue4=
+OutputFileName4=
+OutputFileNameMulti4=
+UseOutputNameForMulti4=1
+OutputFileNameSpecial4=
+OpenOutput4=1
+
+[GeneratedFilesSettings]
+RelativeOutputPath2=C:\Users\arsenii.morozov.MIRCOD\Downloads\gnss_module_evaluation_shield\release\gnss_module_evaluation_shield_V1.0_Manufacture_(2021-10-12)\
+OpenOutputs2=1
+AddToProject2=1
+TimestampFolder2=0
+UseOutputName2=0
+OpenODBOutput2=0
+OpenGerberOutput2=0
+OpenNCDrillOutput2=0
+OpenIPCOutput2=0
+EnableReload2=0
+RelativeOutputPath3=C:\Users\arsenii.morozov.MIRCOD\Downloads\gnss_module_evaluation_shield\release\gnss_module_evaluation_shield_V1.0_Manufacture_(2021-10-12)\Fabrication.PDF
+OpenOutputs3=1
+RelativeOutputPath4=C:\Users\arsenii.morozov.MIRCOD\Downloads\gnss_module_evaluation_shield\release\gnss_module_evaluation_shield_V1.0_Manufacture_(2021-10-12)\
+OpenOutputs4=1
+AddToProject4=1
+TimestampFolder4=0
+UseOutputName4=0
+OpenODBOutput4=0
+OpenGerberOutput4=0
+OpenNCDrillOutput4=0
+OpenIPCOutput4=0
+EnableReload4=0
+
